@@ -32,6 +32,7 @@ public class Ej10 {
 			}
 
 		} while (notaUser != -1);
+	lee.close();
 	}
 
 }

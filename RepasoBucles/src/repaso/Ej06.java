@@ -18,7 +18,14 @@ algún número negativo o no.*/
 				negativos++;
 			}
 		}
-		System.out.print("De los 10 numeros introducidos " + negativos + " son negativos.");
+		//Importante
+		if (negativos==0) {
+			System.out.println("No se han encontrado numeros negativos");
+		}
+		else {
+			System.out.println("Se ha encontrado al menos un numero negativo.");
+		}
+		
 	lee.close();
 	}
 

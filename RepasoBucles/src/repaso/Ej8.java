@@ -25,6 +25,10 @@ public class Ej8 {
 			}
 		} while (nUser != 0);
 
+		if (contNeg>0) {
+			System.out.println("Ha leido por lo menos un numero negativo");
+		}
+		
 		System.out.println("Se introdujeron " + contPos + " numeros positivos.");
 		System.out.println("Se introdujeron " + contNeg+ " numeros positivos.");
 	}

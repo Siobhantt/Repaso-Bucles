@@ -19,8 +19,12 @@ public class Ej16 {
 			}//fin del if
 		}//fin del for
 		
-		System.out.println("El numero introducido es primo?:");
-		System.out.println(primo);
+		if (primo) {
+			System.out.println("El numero introducido es primo");
+		} 	else  {
+			System.out.println("El numero NO es primo.");
+		}
+		
 	
 	}
 

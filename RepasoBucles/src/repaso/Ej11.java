@@ -11,10 +11,9 @@ comprendidos entre 100 y 200, y luego muestra por pantalla ambas sumas.*/
 		for (int i=100; i<=200;i++) {
 			if (i%2==0) {
 				sumaP+=i;
-			}
-			else if(i%2==1) {
+			}else if(i%2==1) {
 				sumaI+=i;
-			}
+			}//fin del if
 		}
 		System.out.println("La suma de los numeros pares entre 100 y 200 es: " + sumaP);
 		System.out.println("La suma de los numeros impares entre 100 y 200 es: " + sumaI);

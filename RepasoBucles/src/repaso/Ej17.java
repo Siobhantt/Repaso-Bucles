@@ -18,7 +18,7 @@ public class Ej17 {
 		System.out.println("Si desea salir del programa introduzca un 0");
 
 		do {
-			System.out.println("Por favor introduzca un numero: ");
+			System.out.println("Por favor introduzca un numero valor inicial: ");
 			numUser = lee.nextInt();
 			
 			numUser=max;
